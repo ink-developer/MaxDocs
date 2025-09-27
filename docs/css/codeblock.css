@@ -1,0 +1,19 @@
+pre {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 0.5rem;
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-x: auto;
+  padding: 0.75rem;
+}
+
+[data-theme="slate"] pre {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+pre code {
+  display: block;
+  background: none !important;
+  border-radius: 0;
+  white-space: inherit;
+}

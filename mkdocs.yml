@@ -1,0 +1,43 @@
+site_name: MaxDocs
+nav:
+  - Главная: index.md
+  - API:
+      - Подключение: api/conn.md
+      - Логин: api/login.md
+      - Работа с сообщениями: api/messages.md
+      - Работа с профилем: api/profile.md
+      - Получение обновлений: api/updates.md
+theme:
+  name: shadcn
+  favicon: img/incon.ico
+  features:
+    - content.code.copy
+    - content.code.select
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Тёмная тема
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Светлая тема
+
+extra_css:
+  - css/codeblock.css
+
+markdown_extensions:
+  - pymdownx.highlight:
+      use_pygments: true
+      # linenums: true
+      # pygments_style: default
+  - pymdownx.superfences
+  - pymdownx.progressbar
+  - admonition
+  - fenced_code
+  - toc:
+      baselevel: 2
