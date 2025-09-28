@@ -36,11 +36,11 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Получение обновлений - MaxDocs</title>
+    <title>Сообщение от юзера - MaxDocs</title>
     
 
 
-<title>Получение обновлений</title>
+<title>Сообщение от юзера</title>
 
 
 
@@ -53,7 +53,7 @@
 
 <!-- Open Graph (Facebook, LinkedIn) -->
 
-<meta property="og:title" content="Получение обновлений">
+<meta property="og:title" content="Сообщение от юзера">
 
 
 
@@ -66,7 +66,7 @@
 
 <!-- Twitter Card -->
 
-<meta name="twitter:title" content="Получение обновлений">
+<meta name="twitter:title" content="Сообщение от юзера">
 
 
 
@@ -387,7 +387,7 @@
 </li>
                 
                 <li data-slot="sidebar-menu-item" data-sidebar="menu-item" class="group/menu-item relative">
-    <a data-slot="sidebar-menu-button" data-active="true" data-sidebar="menu-button"
+    <a data-slot="sidebar-menu-button" data-active="false" data-sidebar="menu-button"
         data-size="default" href="None"
         class="hover:bg-sidebar-accent hover:text-sidebar-accent-foreground peer/menu-button flex items-center gap-2 rounded-md p-2 text-left outline-hidden ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-data-[sidebar=menu-action]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! [&>span:last-child]:truncate [&>svg]:size-4 [&>svg]:shrink-0 data-[active=true]:bg-accent data-[active=true]:border-accent 3xl:fixed:w-full 3xl:fixed:max-w-48 relative h-[30px] w-fit overflow-visible border border-transparent text-[0.8rem] font-medium after:absolute after:inset-x-0 after:-inset-y-1 after:z-0 after:rounded-md">
 
@@ -451,7 +451,7 @@
 </li>
                 
                 <li data-slot="sidebar-menu-item" data-sidebar="menu-item" class="group/menu-item relative">
-    <a data-slot="sidebar-menu-button" data-active="false" data-sidebar="menu-button"
+    <a data-slot="sidebar-menu-button" data-active="true" data-sidebar="menu-button"
         data-size="default" href="None"
         class="hover:bg-sidebar-accent hover:text-sidebar-accent-foreground peer/menu-button flex items-center gap-2 rounded-md p-2 text-left outline-hidden ring-sidebar-ring transition-[width,height,padding] focus-visible:ring-2 active:bg-sidebar-accent active:text-sidebar-accent-foreground disabled:pointer-events-none disabled:opacity-50 group-has-data-[sidebar=menu-action]/menu-item:pr-8 aria-disabled:pointer-events-none aria-disabled:opacity-50 data-[active=true]:font-medium data-[active=true]:text-sidebar-accent-foreground data-[state=open]:hover:bg-sidebar-accent data-[state=open]:hover:text-sidebar-accent-foreground group-data-[collapsible=icon]:size-8! group-data-[collapsible=icon]:p-2! [&>span:last-child]:truncate [&>svg]:size-4 [&>svg]:shrink-0 data-[active=true]:bg-accent data-[active=true]:border-accent 3xl:fixed:w-full 3xl:fixed:max-w-48 relative h-[30px] w-fit overflow-visible border border-transparent text-[0.8rem] font-medium after:absolute after:inset-x-0 after:-inset-y-1 after:z-0 after:rounded-md">
 
@@ -505,7 +505,7 @@
             <div id="page-header" class="flex items-start justify-between">
 
                 <h1 class="scroll-m-20 text-4xl font-semibold tracking-tight sm:text-3xl xl:text-4xl">
-                    Получение обновлений
+                    Сообщение от юзера
                 </h1>
 
                 <div class="flex items-center gap-2 pt-1.5">
@@ -548,268 +548,76 @@
 
     </div>
     <div class="typography w-full flex-1 *:data-[slot=alert]:first:mt-0">
-        <hr />
-<h3 id="_1">Новое сообщение</h3>
-<h4 id="opcode-128">Opcode - <code>128</code></h4>
-<h5 id="_2">Пример ответа</h5>
+        <h3 id="_1">Пример</h3>
 <div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;ver&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">11</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;cmd&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;seq&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;opcode&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">128</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;payload&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;chatId&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;message&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;sender&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">11111111</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;111111111111111111&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;time&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1755111111111</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;text&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;да&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;USER&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;attaches&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span>
-<span class="w">    </span><span class="p">},</span>
-<span class="w">    </span><span class="nt">&quot;ttl&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;prevMessageId&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;111111111111111112&quot;</span>
-<span class="w">  </span><span class="p">}</span>
+<span class="w">  </span><span class="nt">&quot;sender&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">11111111</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;reactionInfo&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{},</span>
+<span class="w">  </span><span class="nt">&quot;options&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;115111111111111111&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;time&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1111111111111</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;text&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;s&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;USER&quot;</span><span class="p">,</span>
+<span class="w">  </span><span class="nt">&quot;attaches&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span>
 <span class="p">}</span>
 </code></pre></div>
-<h5 id="_3">Аргументы ответа</h5>
+<h3 id="_2">Аргументы</h3>
 <table>
 <thead>
 <tr>
 <th style="text-align: left;">Аргумент</th>
 <th style="text-align: center;">Тип</th>
+<th style="text-align: center;">Обязательный</th>
 <th style="text-align: left;">Описание</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><code>chatId</code></td>
+<td style="text-align: left;"><code>sender</code></td>
 <td style="text-align: center;">int</td>
-<td style="text-align: left;">Айди чата куда пришло новое сообщение</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>message.sender</code></td>
-<td style="text-align: center;">int</td>
+<td style="text-align: center;">✅</td>
 <td style="text-align: left;">Айди юзера который отправил сообщение</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>message.id</code></td>
-<td style="text-align: center;">str</td>
-<td style="text-align: left;">Айди нового сообщения</td>
+<td style="text-align: left;"><code>reactionInfo</code></td>
+<td style="text-align: center;"><a class="reference" href="../reaction_info/">dict[reactionInfo]</a></td>
+<td style="text-align: center;">❌</td>
+<td style="text-align: left;">Информация о реакциях на сообщении</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>message.time</code></td>
+<td style="text-align: left;"><code>options</code></td>
 <td style="text-align: center;">int</td>
-<td style="text-align: left;">Таймстамп в миллисекундах когда было отправлено сообщение</td>
+<td style="text-align: center;">❌</td>
+<td style="text-align: left;">Не знаю)</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>message.text</code></td>
+<td style="text-align: left;"><code>id</code></td>
 <td style="text-align: center;">str</td>
-<td style="text-align: left;">Текст нового сообщения</td>
+<td style="text-align: center;">✅</td>
+<td style="text-align: left;">Айди сообщения</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>message.type</code></td>
+<td style="text-align: left;"><code>time</code></td>
+<td style="text-align: center;">int</td>
+<td style="text-align: center;">✅</td>
+<td style="text-align: left;">Время отправки сообщения (таймстамп в мс)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>text</code></td>
 <td style="text-align: center;">str</td>
-<td style="text-align: left;">Тип пользователя от которого пришло сообщение</td>
+<td style="text-align: center;">✅</td>
+<td style="text-align: left;">Текст сообщения</td>
 </tr>
 <tr>
-<td style="text-align: left;"><code>message.attaches</code></td>
-<td style="text-align: center;">array[obj]</td>
+<td style="text-align: left;"><code>type</code></td>
+<td style="text-align: center;">str</td>
+<td style="text-align: center;">✅</td>
+<td style="text-align: left;">Источник (тип) сообщения. В данном случае USER</td>
+</tr>
+<tr>
+<td style="text-align: left;"><code>attaches</code></td>
+<td style="text-align: center;">list[attaches]</td>
+<td style="text-align: center;">❌</td>
 <td style="text-align: left;">Список вложений</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>ttl</code></td>
-<td style="text-align: center;">bool</td>
-<td style="text-align: left;">Метка для авто удаляющегося сообщения</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>prevMessageId</code></td>
-<td style="text-align: center;">int</td>
-<td style="text-align: left;">Айди предыдущего сообщения</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h3 id="_4">Сообщение изменено</h3>
-<h4 id="opcode-128_1">Opcode - <code>128</code></h4>
-<h5 id="_5">Пример ответа</h5>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;ver&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">11</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;cmd&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;seq&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">11</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;opcode&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">128</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;payload&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;chatId&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;message&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;sender&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">11111111</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;updateTime&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1755111111111</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;111111111111111111&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;time&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1755111111111</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;text&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;да!&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;USER&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;status&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;EDITED&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;attaches&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span>
-<span class="w">    </span><span class="p">},</span>
-<span class="w">    </span><span class="nt">&quot;ttl&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span>
-<span class="w">  </span><span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div>
-<h5 id="_6">Аргументы ответа</h5>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Аргумент</th>
-<th style="text-align: center;">Тип</th>
-<th style="text-align: left;">Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><code>chatId</code></td>
-<td style="text-align: center;">int</td>
-<td style="text-align: left;">Айди чата куда пришло новое сообщение</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>message.sender</code></td>
-<td style="text-align: center;">int</td>
-<td style="text-align: left;">Айди юзера который отправил сообщение</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>message.updateTime</code></td>
-<td style="text-align: center;">int</td>
-<td style="text-align: left;">Таймстамп в миллисекундах когда сообщение было изменено/удалено</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>message.id</code></td>
-<td style="text-align: center;">str</td>
-<td style="text-align: left;">Айди нового сообщения</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>message.time</code></td>
-<td style="text-align: center;">int</td>
-<td style="text-align: left;">Таймстамп в миллисекундах когда было отправлено сообщение</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>message.text</code></td>
-<td style="text-align: center;">str</td>
-<td style="text-align: left;">Текст нового сообщения</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>message.type</code></td>
-<td style="text-align: center;">str</td>
-<td style="text-align: left;">Тип пользователя от которого пришло сообщение</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>message.status</code></td>
-<td style="text-align: center;">str</td>
-<td style="text-align: left;">Статус сообщения (EDITED, REMOVED)</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>message.attaches</code></td>
-<td style="text-align: center;">array[obj]</td>
-<td style="text-align: left;">Список вложений</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>ttl</code></td>
-<td style="text-align: center;">bool</td>
-<td style="text-align: left;">Метка для авто удаляющегося сообщения</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>prevMessageId</code></td>
-<td style="text-align: center;">int</td>
-<td style="text-align: left;">Айди предыдущего сообщения</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h3 id="_7">Сообщение удалено</h3>
-<h4 id="opcode-128_2">Opcode - <code>128</code></h4>
-<h5 id="_8">Пример ответа</h5>
-<div class="highlight"><pre><span></span><code><span class="p">{</span>
-<span class="w">  </span><span class="nt">&quot;ver&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">11</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;cmd&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;seq&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">7</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;opcode&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">128</span><span class="p">,</span>
-<span class="w">  </span><span class="nt">&quot;payload&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="nt">&quot;chatId&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span>
-<span class="w">    </span><span class="nt">&quot;message&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
-<span class="w">      </span><span class="nt">&quot;sender&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">11111111</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;updateTime&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1755111111111</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;id&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;111111111111111111&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;time&quot;</span><span class="p">:</span><span class="w"> </span><span class="mi">1755111111111</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;text&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;да!&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;type&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;USER&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;status&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;REMOVED&quot;</span><span class="p">,</span>
-<span class="w">      </span><span class="nt">&quot;attaches&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[]</span>
-<span class="w">    </span><span class="p">},</span>
-<span class="w">    </span><span class="nt">&quot;ttl&quot;</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span>
-<span class="w">  </span><span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div>
-<h5 id="_9">Аргументы ответа</h5>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Аргумент</th>
-<th style="text-align: center;">Тип</th>
-<th style="text-align: left;">Описание</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><code>chatId</code></td>
-<td style="text-align: center;">int</td>
-<td style="text-align: left;">Айди чата куда пришло новое сообщение</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>message.sender</code></td>
-<td style="text-align: center;">int</td>
-<td style="text-align: left;">Айди юзера который отправил сообщение</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>message.updateTime</code></td>
-<td style="text-align: center;">int</td>
-<td style="text-align: left;">Таймстамп в миллисекундах когда сообщение было изменено/удалено</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>message.id</code></td>
-<td style="text-align: center;">str</td>
-<td style="text-align: left;">Айди нового сообщения</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>message.time</code></td>
-<td style="text-align: center;">int</td>
-<td style="text-align: left;">Таймстамп в миллисекундах когда было отправлено сообщение</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>message.text</code></td>
-<td style="text-align: center;">str</td>
-<td style="text-align: left;">Текст нового сообщения</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>message.type</code></td>
-<td style="text-align: center;">str</td>
-<td style="text-align: left;">Тип пользователя от которого пришло сообщение</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>message.status</code></td>
-<td style="text-align: center;">str</td>
-<td style="text-align: left;">Статус сообщения (EDITED, REMOVED)</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>message.attaches</code></td>
-<td style="text-align: center;">array[obj]</td>
-<td style="text-align: left;">Список вложений</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>ttl</code></td>
-<td style="text-align: center;">bool</td>
-<td style="text-align: left;">Метка для авто удаляющегося сообщения</td>
-</tr>
-<tr>
-<td style="text-align: left;"><code>prevMessageId</code></td>
-<td style="text-align: center;">int</td>
-<td style="text-align: left;">Айди предыдущего сообщения</td>
 </tr>
 </tbody>
 </table>
@@ -828,14 +636,14 @@
             <path d="M5 12l6 6"></path>
             <path d="M5 12l6 -6"></path>
         </svg>
-        Работа с каналами
+        Чат
     </a>
     
     
     <a data-slot="button"
         class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-secondary text-secondary-foreground hover:bg-secondary/80 h-8 rounded-md gap-1.5 px-3 has-[&gt;svg]:px-2.5 ml-auto shadow-none"
         href="None">
-        Опкоды
+        Информация о реакциях
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
             class="tabler-icon tabler-icon-arrow-right ">
@@ -880,43 +688,43 @@
                     
                     <div class="flex flex-col gap-3">
                         
-                        <a class="text-2xl font-medium" href="../conn/">
+                        <a class="text-2xl font-medium" href="../../api/conn/">
                             
                             Подключение
                             
                         </a>
                         
-                        <a class="text-2xl font-medium" href="../login/">
+                        <a class="text-2xl font-medium" href="../../api/login/">
                             
                             Логин
                             
                         </a>
                         
-                        <a class="text-2xl font-medium" href="../messages/">
+                        <a class="text-2xl font-medium" href="../../api/messages/">
                             
                             Работа с сообщениями
                             
                         </a>
                         
-                        <a class="text-2xl font-medium" href="../profile/">
+                        <a class="text-2xl font-medium" href="../../api/profile/">
                             
                             Работа с профилем
                             
                         </a>
                         
-                        <a class="text-2xl font-medium" href="../channels/">
+                        <a class="text-2xl font-medium" href="../../api/channels/">
                             
                             Работа с каналами
                             
                         </a>
                         
-                        <a class="text-2xl font-medium" href="./">
+                        <a class="text-2xl font-medium" href="../../api/updates/">
                             
                             Получение обновлений
                             
                         </a>
                         
-                        <a class="text-2xl font-medium" href="../opcodes/">
+                        <a class="text-2xl font-medium" href="../../api/opcodes/">
                             
                             Опкоды
                             
@@ -931,19 +739,19 @@
                     
                     <div class="flex flex-col gap-3">
                         
-                        <a class="text-2xl font-medium" href="../../objects/chat/">
+                        <a class="text-2xl font-medium" href="../chat/">
                             
                             Чат
                             
                         </a>
                         
-                        <a class="text-2xl font-medium" href="../../objects/user_message/">
+                        <a class="text-2xl font-medium" href="./">
                             
                             Сообщение от юзера
                             
                         </a>
                         
-                        <a class="text-2xl font-medium" href="../../objects/reaction_info/">
+                        <a class="text-2xl font-medium" href="../reaction_info/">
                             
                             Информация о реакциях
                             
@@ -974,48 +782,16 @@
         <a href="#_1"
             class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
             data-active="false" data-depth="2">
-            Новое сообщение
+            Пример
         </a>
-        
-        
-        <a href="#opcode-128"
-            class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
-            data-active="false" data-depth="3">
-            Opcode - 128
-        </a>
-        
         
 
         
-        <a href="#_4"
+        <a href="#_2"
             class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
             data-active="false" data-depth="2">
-            Сообщение изменено
+            Аргументы
         </a>
-        
-        
-        <a href="#opcode-128_1"
-            class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
-            data-active="false" data-depth="3">
-            Opcode - 128
-        </a>
-        
-        
-
-        
-        <a href="#_7"
-            class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
-            data-active="false" data-depth="2">
-            Сообщение удалено
-        </a>
-        
-        
-        <a href="#opcode-128_2"
-            class="text-muted-foreground hover:text-foreground data-[active=true]:text-foreground text-[0.8rem] no-underline transition-colors data-[depth=3]:pl-4 data-[depth=4]:pl-6"
-            data-active="false" data-depth="3">
-            Opcode - 128
-        </a>
-        
         
 
         
